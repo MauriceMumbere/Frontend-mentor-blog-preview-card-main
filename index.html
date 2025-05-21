@@ -1,66 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./assets/images/favicon-32x32.png"
-    />
-
-    <title>Frontend Mentor | Blog preview card</title>
-
-    <!-- Tailwind css Cdn -->
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-
-    <!-- Add fonts -->
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
-
-      body {
-        font-family: Figtree, sans-serif;
-      }
-    </style>
+    <title>Vite + Vue + TS</title>
   </head>
   <body>
-    <div class="h-[100vh] flex justify-center items-center bg-[#f4d04e]">
-      <div
-        class="border border-black w-[350px] p-5 bg-white rounded-xl shadow-[7px_7px_0px_black]"
-      >
-        <div>
-          <img
-            class="w-full rounded-xl"
-            src="./assets/images/illustration-article.svg"
-            alt=""
-          />
-        </div>
-        <a
-          href="#"
-          class="inline-block bg-[#f4d04e] text-black font-semibold px-3 py-1 rounded text-sm mt-5 mb-2 font-bold"
-          >Learning</a
-        >
-
-        <h2>Published 21 Dec 2023</h2>
-        <h1 class="font-bold text-2xl hover:text-[#f4d04e] py-4">
-          HTML & CSS foundations
-        </h1>
-        <p class="text-black opacity-60 mb-4 text-[16px]">
-          These languages are the backbone of every website, defining structure,
-          content, and presentation.
-        </p>
-        <div class="flex gap-2 items-center">
-          <div>
-            <img class="h-10" src="./assets/images/image-avatar.webp" alt="" />
-          </div>
-          <div>
-            <span class="font-bold">Greg Hooper</span>
-          </div>
-        </div>
-      </div>
-    </div>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
